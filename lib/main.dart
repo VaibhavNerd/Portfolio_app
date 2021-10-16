@@ -203,23 +203,7 @@ class _HomeState extends State<Home>{
                         Text(" FLUTTER ",style: TextStyle(color: Colors.black,fontSize: 20,),),
                       ]),
                     ),
-                  SizedBox(
-                      width: 150.0,
-                      height: 40.0,
 
-                    child: RaisedButton(
-
-                      onPressed: (){_launch_url('https://firebasestorage.googleapis.com/v0/b/test-70818.appspot.com/o/VaibhavYadav_InternshalaResume.pdf?alt=media&token=0d5b7f57-3183-497f-9e3e-0290643ec99c');},
-                      color: Colors.indigoAccent,
-                      hoverColor: Colors.lightBlueAccent,
-                      padding: const EdgeInsets.all(10.0),
-                      child: Align(
-                        alignment: Alignment.center,
-                        child: new Text("Resume"),
-                      ),
-
-                    ),
-                  ),
                     new Container(
                       padding: const EdgeInsets.only(top:0.0,left: 10,right: 10,bottom: 10),
                       alignment: Alignment.topLeft,
@@ -259,17 +243,34 @@ class _HomeState extends State<Home>{
                     ),
                     new Container(
                       alignment: Alignment.center,
-                      padding: const EdgeInsets.only(top:10.0,bottom: 10.0,left: 5,right: 5),
+                      padding: const EdgeInsets.only(top:10.0,bottom: 20.0,left: 5,right: 5),
                       child:
                   Row(children: <Widget>[
                     Icon(Icons.location_on,color: Colors.brown,size: 30,),
                     Text(" India ",style: TextStyle(color: Colors.black,fontSize: 20,),),
                   ]),
                   ),
+                    SizedBox(
+                      width: 150.0,
+                      height: 40.0,
 
+                      child: RaisedButton(
+
+                        onPressed: (){_launch_url('https://firebasestorage.googleapis.com/v0/b/test-70818.appspot.com/o/VaibhavYadav_InternshalaResume.pdf?alt=media&token=0d5b7f57-3183-497f-9e3e-0290643ec99c');},
+                        color: Colors.indigoAccent,
+                        hoverColor: Colors.lightBlueAccent,
+                        padding: const EdgeInsets.all(10.0),
+                        child: Align(
+                          alignment: Alignment.center,
+                          child:
+                          new Text("Resume"),
+                        ),
+
+                      ),
+                    ),
 
                     new Container(
-                      padding: const EdgeInsets.only(top:0.0,left: 10,right: 10,bottom: 10),
+                      padding: const EdgeInsets.only(top:20.0,left: 10,right: 10,bottom: 10),
                       alignment: Alignment.topLeft,
                       child: new Text("SOCIAL HANDLES",style: TextStyle(
                         decoration: TextDecoration.underline,
