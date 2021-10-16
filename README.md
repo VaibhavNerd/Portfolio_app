@@ -5,7 +5,8 @@ A new Flutter application.
 
 ![Screenshot_2021-10-16-21-21-38-784_My_Portfolio portfolio](https://user-images.githubusercontent.com/75988605/137594041-30829bbb-7ffd-4cad-84ec-eebfe1a8a27a.jpg)
 
-![Screenshot_2021-10-16-19-21-16-012_My_Portfolio portfolio](https://user-images.githubusercontent.com/75988605/137590067-1d59668e-a6ac-446c-9b4c-1079a5b5eaf2.jpg)
+![Screenshot_2021-10-16-21-38-11-006_My_Portfolio portfolio](https://user-images.githubusercontent.com/75988605/137594552-e811eed2-eaaa-4665-98cf-75f5fe190ca7.jpg)
+
 
 
 ## Getting Started
