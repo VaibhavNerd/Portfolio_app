@@ -39,9 +39,24 @@ class _HomeState extends State<Home>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:  Color(0xffFBF8F2),
-      body: new SingleChildScrollView(
+
+      backgroundColor:  Color(0xffFBF8F2) ,
+
+      body: Container(
+      decoration: BoxDecoration(
+      gradient: LinearGradient(
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
+      colors: [
+      Color(0xfffde1eb),
+      Color(0xffc0ffde),
+      ],
+      )
+      ),
+
+     child: new SingleChildScrollView(
         child: Column(
+
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
@@ -55,6 +70,7 @@ class _HomeState extends State<Home>{
               fontWeight: FontWeight.bold
             ),),
             ),
+
             new Container(
               height: 200,
               width: double.infinity,
@@ -116,7 +132,7 @@ class _HomeState extends State<Home>{
                       child: new Text("VAIBHAV",style: TextStyle(
                         fontSize: 60,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xff187bcd), //blue Color
+                        color: Colors.lightBlue,
                       ),),
                     ),
                     new Container(
@@ -125,7 +141,7 @@ class _HomeState extends State<Home>{
                       child: new Text("YADAV",style: TextStyle(
                         fontSize: 60,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xff187bcd), //blue Color
+                        color: Colors.lightBlue,
                       ),),
                     ),
                      new Container(
@@ -145,7 +161,7 @@ class _HomeState extends State<Home>{
                         decoration: TextDecoration.underline,
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xff187bcd), //blue Color
+                        color: Colors.lightBlue,
                       ),),
                     ),
                     new Container(
@@ -211,7 +227,7 @@ class _HomeState extends State<Home>{
                         decoration: TextDecoration.underline,
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xff187bcd), //blue Color
+                        color: Colors.lightBlue
                       ),),
                     ),
                       new Container(
@@ -276,7 +292,7 @@ class _HomeState extends State<Home>{
                         decoration: TextDecoration.underline,
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xff187bcd), //blue Color
+                        color: Colors.lightBlue
                       ),),
                     ),
                     new Container(
@@ -371,6 +387,8 @@ class _HomeState extends State<Home>{
                 ],
             ),
     )
+    ),
+
     );
   }
 }
