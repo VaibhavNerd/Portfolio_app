@@ -32,7 +32,7 @@ class _HomeState extends State<Home>{
         await launch(url);
       }
     else{
-      throw "Cannot launch the URL $url";
+      throw "error $url";
     }
   }
 
